@@ -1,0 +1,50 @@
+本地协议：
+  git clone /d/projects/schoolCard/efm32/codes/wuxicmiot/SmartCard
+
+git 添加远程仓库连接
+  git remote add origin 远程仓库地址
+
+git协议
+ git clone git://server_ip/test.git
+ 添加远程仓库连接
+ git remote add origin git://server_ip/test.git
+ 
+ http协议
+  git clone https://github.com/chenyingchun0312/doc.git
+  添加远程仓库连接
+  git remote add origin https://github.com/chenyingchun/doc.git
+  
+ ssh协议
+ git clone ssh://git@github.com/chenyingchun0312/doc.git
+ git clone git@github.com/chenyingchun0312/doc.git
+ 
+ 添加远程仓库的连接
+ git remote add origin git@github.com/chenyingchun0312/doc.git
+ 
+ ssh生成秘钥对：
+ ssh-Keyten -t rsa -C "github上注册的email"
+ 
+ 在github网站上添加公钥
+ 
+ 使用ssh协议克隆，添加远程连接
+ 
+ 
+  
+[user]
+	name = chenyingchun
+	email = chenyingchun0312@163.com
+[core]
+	quotepath = false
+	autocrlf = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[alias]
+	ci = commit -s
+	st = status
+	br = branch
+	hi = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+[credential]
+	helper = wincred
