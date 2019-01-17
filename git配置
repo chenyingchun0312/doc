@@ -48,3 +48,51 @@ git协议
 	hi = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
 [credential]
 	helper = wincred
+
+
+
+
+
+
+
+git blame -L 5, 10 文件名
+git clean -n  查看有哪些需要删除
+git clean -f  查看未被跟踪的文件
+git clean -x  删除未被跟踪的，包括.gitignore中的
+
+
+git st -sb
+git rm 
+git hi -4
+
+
+修改文件名
+git mv file1 file2
+
+移动文件
+git mv b ../demos/b
+
+git add -p filename  一个文件多个提交
+
+
+git show HEAD 显示提交修改的内容      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
