@@ -31,23 +31,29 @@ git协议
  
   
 [user]
-	name = chenyingchun
-	email = chenyingchun0312@163.com
+        name = chenyingchun
+        email = chenyingchun@grandhonor.net
 [core]
-	quotepath = false
-	autocrlf = false
+        quotepath = false
+        autocrlf = false
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true
 [alias]
-	ci = commit -s
-	st = status
-	br = branch
-	hi = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+        ci = commit -s
+        st = status
+        br = branch
+        hi = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+
 [credential]
-	helper = wincred
+    helper = store
+
+
+[core]
+        excludesfile = /home/cyc/.gitignore_codenvy
+        editor = vim
 
 
 
