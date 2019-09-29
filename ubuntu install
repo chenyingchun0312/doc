@@ -1,0 +1,88 @@
+1. sougou pinyin
+ 1.1 setting->language support install
+
+2. update sourlist
+2.1
+# deb cdrom:[Ubuntu 16.04 LTS _Xenial Xerus_ - Release amd64 (20160420.1)]/ xenial main restricted
+deb-src http://archive.ubuntu.com/ubuntu xenial main restricted #Added by software-properties
+deb http://mirrors.aliyun.com/ubuntu/ xenial main restricted
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial main restricted multiverse universe #Added by software-properties
+deb http://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted multiverse universe #Added by software-properties
+deb http://mirrors.aliyun.com/ubuntu/ xenial universe
+deb http://mirrors.aliyun.com/ubuntu/ xenial-updates universe
+deb http://mirrors.aliyun.com/ubuntu/ xenial multiverse
+deb http://mirrors.aliyun.com/ubuntu/ xenial-updates multiverse
+deb http://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse #Added by software-properties
+deb http://archive.canonical.com/ubuntu xenial partner
+deb-src http://archive.canonical.com/ubuntu xenial partner
+deb http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted
+deb-src http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted multiverse universe #Added by software-properties
+deb http://mirrors.aliyun.com/ubuntu/ xenial-security universe
+deb http://mirrors.aliyun.com/ubuntu/ xenial-security multiverse
+
+
+2.2 sudo apt-get update
+
+3. sudo apt-get install vim
+
+4. download sougou dep
+4.1sudo dpkg -i sogoupinyin_2.2.0.0108_amd64.deb 
+
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Correcting dependencies... Done
+The following additional packages will be installed:
+  fcitx-libs libopencc1 libqt4-opengl libqtwebkit4
+The following NEW packages will be installed:
+  fcitx-libs libopencc1 libqt4-opengl libqtwebkit4
+0 upgraded, 4 newly installed, 0 to remove and 237 not upgraded.
+1 not fully installed or removed.
+Need to get 9,952 kB of archives.
+After this operation, 47.3 MB of additional disk space will be used.
+
+4.2 sudo apt-get isntall -f
+
+4.3 setting->Text Entry 添加sogou Pinyin
+
+5. 自动挂在/dev/sda  4T硬盘
+sudo vi /etc/fstab  添加/dev/sda  /home/cyc/workspace ext4 defaults 0 0  重启生效
+
+6.安装googlechrome
+https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 输入浏览器下载
+
+sudo dpkg -i google-chrome-stable_current_amd64.deb 
+
+/usr/bin/google-chrome-stable 打开，打开后，锁定到Lock to Luncher
+
+7.sudo apt-get install expect
+8. beyondcompare
+9. vmware
+10. teamview
+12. redis
+13. pycharm
+14. chrome
+15. gitkraken
+16. vscode
+17. DB Browser for SQLite
+18. kazam
+
+trello: https://trello.com/b/cHp7AFJi/%E7%A0%94%E5%8F%91
+chenyingchun0312@163.com cyc19900312
+OA: http://192.168.21.121:12345/wui/index.html#/main/portal/portal-1-2?_key=qx5ose
+chenyingchun chenyingchun@123
+
+
+
+
+http://192.167.8.123:30000/
+chenyinchun  chenyinchun@2019
+
+
+
+
+
+
+
