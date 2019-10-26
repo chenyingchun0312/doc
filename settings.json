@@ -66,5 +66,13 @@
         "/opt/atlas500_B893/ddk/include/third_party/glog/include/",
         "/opt/atlas500_B893/ddk/include/third_party/cereal/include/",
         "${workspaceFolder}/Common/include/"
+    ],
+    "C_Cpp.default.defines": [
+        "BOARD_CONFIG=\\\"mt2625_evb\\\"",
+        "HAVE_CCONFIG_H",
+        "IC_CONFIG=\\\"mt2625\\\"",
+        "MBEDTLS_CONFIG_FILE=\\\"config-mtk-nbiot.h\\\"",
+        "RT_USING_NEWLIB",
+        "MTK_TCPIP_FOR_NB_MODULE_ENABLE"
     ]
 }
