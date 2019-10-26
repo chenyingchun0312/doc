@@ -46,6 +46,7 @@ git协议
         st = status
         br = branch
         hi = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+        ck = checkout
 
 [credential]
     helper = store
