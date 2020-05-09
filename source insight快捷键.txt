@@ -1,0 +1,28 @@
+source insight 快捷键：
+
+
+自定义：
+ctrl + / 		注释
+shift+ctrl+/ 	解注释
+Alt + /  		搜索
+Alt + 向左箭头  返回
+Alt + 向右箭头  前进
+ctrl+x  		剪切一行 （删除并复制）
+ctrl + -		折叠一个模块
+ctrl + = 		打开一个模块
+
+shift + ctrl + - 	折叠所有模块
+shift + ctrl + = 	打开所有模块
+
+
+系统默认： 
+ctrl + o 		打开project窗口，进行文件模糊查找
+esc 		    关闭project窗口
+ctrl+alt+s   	选择保存所有文件
+ctrl+k 			选中并复制当前行
+ctrl+j			合并当前行和下一行为一行
+ctrl+向上/下箭头  拖动某一行向上，向下移动
+shift+向上/下箭头 按照行进行选择
+Alt+L 			函数名模糊查找
+ctrl+f 			在当前文件中查找 f3向上查找，f4向下查找
+ctrl+l			在查找结果和代码中切换
