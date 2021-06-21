@@ -1,0 +1,70 @@
+{
+    "editor.detectIndentation": false,
+
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+
+        
+        "**/lib": true,
+        "**/tools":true,
+        "**/test": true,
+        "**/example": true,
+
+
+        "**/mible": true,
+        "**/SecureFlashBootloader":true,
+        "**/coretop":true,
+        "**/freertos":true,
+        "**/vapp_bt_test.c":true,
+    },
+
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+
+        "**/lib": true,
+        "**/tools":true,
+        "**/test": true,
+        "**/example": true,
+
+
+        "**/mible": true,
+        "**/SecureFlashBootloader":true,
+        "**/coretop":true,
+        "**/freertos":true,
+        "**/vapp_bt_test.c":true,
+    },
+
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/.hg/store/**": true,
+
+        "**/lib": true,
+        "**/tools":true,
+        "**/test": true,
+        "**/example": true,
+
+
+        "**/mible": true,
+        "**/SecureFlashBootloader":true,
+        "**/coretop":true,
+        "**/freertos":true,
+        "**/vapp_bt_test.c":true,
+    },
+
+
+    "C_Cpp.files.exclude": {
+        "**/.vscode": true
+    },
+    
+    
+    
+
+}
